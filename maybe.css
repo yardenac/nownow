@@ -1,0 +1,160 @@
+html, body {
+	 background-color:yellow;
+	 height:100%;
+	 width:100%;
+}
+html,body,div,ul,ol,li,input,span,select,option {
+	 margin:0px;
+	 padding:0px;
+	 border:0px solid white;
+}
+div.orbit {
+	 background-color:beige;
+	 width:100%;
+	 height:80px;
+	 position:absolute;
+	 top:0px;
+	 left:0px;
+	 right:0px;
+	 overflow:hidden;
+	 font:normal normal normal 8px/8px arial;
+}
+div.statbox {
+	 background-color:lightblue;
+	 height:75px;
+	 position:absolute;
+	 right:0px;
+	 top:0px;
+	 -moz-column-count:3;
+	 -moz-column-gap:0px;
+}
+ul.statlist, li.statbrick {
+	 list-style:none inside none;
+}
+li.statbrick {
+	 background-color:pink;
+	 margin-bottom:2px;
+	 margin-left:2px;
+	 height:13px;
+	 line-height:13px;
+	 font-size:13px;
+	 color:black;
+	 position:static;
+	 text-align:right;
+}
+li.statbrick span {
+	 cursor:pointer;
+}
+li.statbrick input {
+	 cursor:pointer;
+	 position:relative;
+	 top:1px;
+}
+div.gambit {
+	 background-color:lightgreen;
+	 width:100%;
+	 top:80px;
+	 bottom:0px;
+	 left:0px;
+	 right:0px;
+	 position:absolute;
+	 overflow:hidden;
+	 text-align:center;
+}
+div.guidebar_slider {
+	 width:30px;
+	 background-color:#9d7853;
+	 border:0px solid black;
+	 cursor:move;
+	 position:relative;
+	 height:100%;
+	 display:inline-block;
+	 overflow:hidden;
+	 bottom:0px;
+	 top:0px;
+	 left:0px;
+	 right:0px;
+	 z-index:30;
+	 margin:0px;
+	 margin-left:1px;
+	 padding:0px;
+}
+div.rover {
+	 width:65px;
+	 background-color:white;
+	 border:0px solid black;
+	 cursor:move;
+	 position:relative;
+	 height:100%;
+	 display:inline-block;
+	 overflow:hidden;
+	 bottom:0px;
+	 top:0px;
+	 left:0px;
+	 right:0px;
+	 z-index:10;
+	 margin:0px;
+	 margin-left:1px;
+	 padding:0px;
+}
+div.rover div.awning {
+	 position:absolute;
+	 top:0px;
+	 background-color:black;
+	 height:9px;
+	 width:100%;
+	 z-index:50;
+	 overflow:hidden;
+}
+div.rover div.awning span {
+	 color:orange;
+	 font:normal small-caps bold 10px/9px arial;
+	 vertical-align:text-top;
+	 letter-spacing:-1px;
+}
+div.rover select.tzselect {
+	 position:absolute;
+	 bottom:0px;
+	 left:0px;
+	 font:normal normal normal 12px/12px arial;
+	 vertical-align:text-top;
+	 height:15px;
+	 width:100%;
+	 z-index:50;
+	 overflow:hidden;
+}
+wtf.div.rover.span {
+	 z-index:11;
+}
+div.cpane {
+	 width:65px;
+	 background-color:transparent;
+	 border:0px solid white;
+	 margin:0px;
+	 padding:0px;
+	 position:absolute;
+	 left:0px;
+	 top:0px;
+	 z-index:9;
+}
+img.pimg {
+	 width:65px;
+	 overflow:hidden;
+	 position:absolute;
+	 left:0px;
+	 z-index:5;
+}
+div.guidebar {
+	 visibility:visible;
+	 width:100%;
+	 background-color:brown;
+	 border:0px solid white;
+	 height:10px;
+	 z-index:20;
+	 position:absolute;
+	 left:0px;
+}
+.invis {
+	 display:none;
+	 visibility:hidden;
+}

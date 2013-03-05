@@ -1,0 +1,75 @@
+html, body {
+	 background-color:yellow;
+	 border:0px solid white;
+	 margin:0px;
+	 padding:0px;
+	 height:100%;
+	 width:100%;
+}
+div {
+	 margin:0px;
+	 padding:0px;
+}
+div.ether {
+	 border:0px solid white;
+	 width:100%;
+	 min-height:100%;
+	 overflow:hidden;
+	 background-color:lightgreen;
+	 position:static;
+	 top:0px;
+	 left:0px;
+}
+div.rover {
+	 width:65px;
+	 height:90%;
+	 background-color:white;
+	 border:0px solid black;
+	 cursor:move;
+	 position:absolute;
+	 display:inline-block;
+	 overflow:hidden;
+	 bottom:0px;
+	 z-index:10;
+}
+div.rover.span {
+	 z-index:11;
+}
+div.cpane {
+	 width:65px;
+	 background-color:transparent;
+	 border:0px solid white;
+	 margin:0px;
+	 padding:0px;
+	 position:absolute;
+	 left:0px;
+	 top:0px;
+	 z-index:9;
+}
+img.pimg {
+	 height:200px;
+	 width:65px;
+	 overflow:hidden;
+	 position:absolute;
+	 left:0px;
+	 z-index:5;
+}
+div.dater {
+	 width:500px;
+	 height:70%;
+	 background-color:beige;
+	 border:0px solid white;
+	 position:absolute;
+	 bottom:0px;
+	 right:0px;
+	 overflow:hidden;
+}
+div.guidebar {
+	 visibility:visible;
+	 background-color:black;
+	 border:0px solid white;
+	 height:1px;
+	 z-index:20;
+	 position:absolute;
+	 left:0px;
+}

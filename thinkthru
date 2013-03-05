@@ -1,0 +1,15 @@
+days / d
+imgheight 200
+colwidth
+imgspan 86400 (60*60*24)
+offset 28800 (from gmt?)
+date('l',(86400 * $imgid) + 28800)
+font 8
+
+unisex
+
+hms
+
+hours h
+
+minutes m
